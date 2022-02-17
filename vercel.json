@@ -9,6 +9,22 @@
     {
       "source": "/api/:type(.*).svg",
       "destination": "/api/:type.js"
+    },
+    {
+      "source": "/test/index.light.svg",
+      "destination": "/api/index.js?username=PonomareVlad&show_icons=true&count_private=true&hide_title=true"
+    },
+    {
+      "source": "/test/index.dark.svg",
+      "destination": "/api/index.js?username=PonomareVlad&show_icons=true&count_private=true&hide_title=true&theme=dark"
+    },
+    {
+      "source": "/test/top-langs.light.svg",
+      "destination": "/api/top-langs.svg?username=PonomareVlad&hide=html&layout=compact&count_private=true"
+    },
+    {
+      "source": "/test/top-langs.dark.svg",
+      "destination": "/api/top-langs.svg?username=PonomareVlad&hide=html&layout=compact&count_private=true&theme=dark"
     }
   ],
   "redirects": [
