@@ -7,23 +7,23 @@
   },
   "rewrites": [
     {
-      "source": "/api/:type(.*).*",
+      "source": "/api/:type(.*).(.*)",
       "destination": "/api/:type.js"
     },
     {
-      "source": "/test/index.light.*",
+      "source": "/test/index.light.(.*)",
       "destination": "/api/index.js?username=PonomareVlad&show_icons=true&count_private=true&hide_title=true"
     },
     {
-      "source": "/test/index.dark.*",
+      "source": "/test/index.dark.(.*)",
       "destination": "/api/index.js?username=PonomareVlad&show_icons=true&count_private=true&hide_title=true&theme=dark"
     },
     {
-      "source": "/test/top-langs.light.*",
+      "source": "/test/top-langs.light.(.*)",
       "destination": "/api/top-langs.svg?username=PonomareVlad&hide=html&layout=compact&count_private=true"
     },
     {
-      "source": "/test/top-langs.dark.*",
+      "source": "/test/top-langs.dark.(.*)",
       "destination": "/api/top-langs.svg?username=PonomareVlad&hide=html&layout=compact&count_private=true&theme=dark"
     }
   ],
