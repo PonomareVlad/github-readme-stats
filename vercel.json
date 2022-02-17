@@ -5,14 +5,16 @@
       "maxDuration": 10
     }
   },
+  "rewrites": [
+    {
+      "source": "/api/:type(.*).svg",
+      "destination": "/api/:type.js"
+    }
+  ],
   "redirects": [
     {
       "source": "/",
       "destination": "https://github.com/PonomareVlad/github-readme-stats"
-    },
-    {
-      "source": "/api/:type(.*).svg",
-      "destination": "/api/:type.js"
     }
   ]
 }
