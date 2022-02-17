@@ -11,8 +11,8 @@
       "destination": "https://github.com/PonomareVlad/github-readme-stats"
     },
     {
-      "source": "/api/*.svg",
-      "destination": "/api/$1.js"
+      "source": "/api/:type(.*).svg",
+      "destination": "/api/:type.js"
     }
   ],
   "github": {
